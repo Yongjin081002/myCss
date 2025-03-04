@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Css1 from './components/css1';
-import Css2 from './components/SlideBanner';
-
+import SlideBanner from './components/SlideBanner';
+import DropdownMenu from './components/DropdownMenu';
 
 function App() {
   return (
-    <Css2></Css2>
+    <DropdownMenu />
   );
 }
 
