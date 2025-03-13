@@ -17,7 +17,7 @@ export const SliderWrapper = styled.div`
 // 배너 영역
 export const Banner = styled.div`
   width: 100%;
-  height: 200px;
+  height: 400px;
   background-color: ${(props) => props.color};
   display: flex;
   justify-content: center;
@@ -33,6 +33,12 @@ export const DotsContainer = styled.div`
   display: flex;
   justify-content: center;
   margin: 16px ;
+  transition: 1s ease;
+`;
+
+export const BannerImg  = styled.image`
+  width: 600px;
+  height: 200px;
 `;
 
 // 개별 도트
@@ -50,3 +56,5 @@ export const Dot = styled.div`
       props.active ? '#0056b3' : '#aaa'}; // hover 효과
   }
 `;
+
+
