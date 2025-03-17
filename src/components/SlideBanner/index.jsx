@@ -31,7 +31,7 @@ const SliderBanner = () => {
   return (
     <SliderWrapper>
       <Banner >
-        <img style={{width:"601px", height:"401px"}} src={banners[currentIndex].image} />
+        <img style={{width:"60px", height:"401px"}} src={banners[currentIndex].image} />
       </Banner>
       <DotsContainer>
         {banners.map((_, index) => (
