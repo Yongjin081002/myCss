@@ -6,7 +6,8 @@ import DropdownMenu from './components/DropdownMenu';
 
 function App() {
   return (
-    <SlideBanner />
+    // <SlideBanner />
+    <DropdownMenu />
   );
 }
 
