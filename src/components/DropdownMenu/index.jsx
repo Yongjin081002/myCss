@@ -4,7 +4,7 @@ import * as S from './indexStyle'
 
 
 const DropdownMenu = () => {
-    const [visible, setVisible] = useState('hidden');
+    const [visible, setVisible] = useState('visible');
     const onClickVisible = () => {
         setVisible( visible === 'visible' ? "hidden" : 'visible');
     }
