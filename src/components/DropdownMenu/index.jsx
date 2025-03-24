@@ -4,14 +4,15 @@ import * as S from './indexStyle'
 
 
 const DropdownMenu = () => {
-    const [visible, setVisible] = useState('visible');
+    const [visibler, setVisible] = useState('hidden');
     const onClickVisible = () => {
-        setVisible( visible === 'visible' ? "hidden" : 'visible');
+        setVisible( visibler === 'block' ? "none" : 'block');
+        console.log("1")
     }
   return (
     <div>
         <S.Box onClick={onClickVisible}>버튼</S.Box>
-        <S.TextBoxWrap style={{visibility:visible}}>
+        <S.TextBoxWrap style={{display:visibler}}>
             <S.TextBox>a</S.TextBox>
             <S.TextBox>b</S.TextBox>
             <S.TextBox>c</S.TextBox>    

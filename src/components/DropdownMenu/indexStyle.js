@@ -32,7 +32,6 @@ export const TextBox = styled.div`
 export const TextBoxWrap = styled.div`
     width:500px;
     height:400px;
-    border: 1px solid;
     animation: 1s ease-in;
     display: ${(props) => (props.isOpen ? "block" : "none")};
     animation: ${(props) => (props.isOpen ? fadeIn : "none")} 0.3s ease-out;
